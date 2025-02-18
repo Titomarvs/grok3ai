@@ -1,0 +1,186 @@
+    body {
+        background-color: black;
+        color: white;
+        font-family: 'Press Start 2P', cursive;
+        text-align: center;
+        padding: 20px;
+        overflow-x: hidden;
+        /* Prevents horizontal scroll */
+    }
+
+    .thebanner {
+        width: 99vw;
+        min-height: 65vh;
+        /* Ensures it doesn't shrink */
+        background-image: url('./glitxhx.gif');
+        background-size: cover;
+        background-position: center;
+        margin: auto;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+    }
+
+    .banner img {
+        margin-top: 5%;
+        margin-left: 14%;
+        width: 70%;
+        border: 2px solid white;
+        display: block;
+    }
+
+    .social-links {
+
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 5%;
+        /* Adds spacing between banner and social links */
+    }
+
+    .social-links a {
+        text-decoration: none;
+    }
+
+    .social-links img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .container {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background: black;
+    }
+
+    .tokenomics {
+        margin-top: 20px;
+        padding: 10px;
+        border-top: 2px solid white;
+    }
+
+    .contract {
+        font-size: 12px;
+        word-wrap: break-word;
+        padding: 10px;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 5px;
+    }
+
+    @media (max-width: 600px) {
+        body {
+            padding: 10px;
+        }
+
+        .container {
+            padding: 15px;
+        }
+
+        .contract {
+            font-size: 10px;
+        }
+
+        .social-links img {
+            width: 25px;
+            height: 25px;
+        }
+    }
+
+    @media (max-width: 1024px) {
+        .banner img {
+            width: 80%;
+            margin-left: 0;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .thebanner {
+            min-height: 50vh;
+            padding: 5px;
+        }
+
+        .banner img {
+            width: 90%;
+            margin-top: 3%;
+        }
+
+        .social-links {
+            gap: 15px;
+        }
+
+        .social-links img {
+            width: 28px;
+            height: 28px;
+        }
+
+        .container {
+            padding: 15px;
+        }
+
+        .tokenomics h2 {
+            font-size: 16px;
+        }
+
+        .contract {
+            font-size: 11px;
+            padding: 8px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        body {
+            padding: 5px;
+        }
+
+        .thebanner {
+            min-height: 40vh;
+            padding: 5px;
+        }
+
+        .banner img {
+            width: 95%;
+            margin-top: 2%;
+        }
+
+        .social-links {
+            gap: 10px;
+        }
+
+        .social-links img {
+            width: 24px;
+            height: 24px;
+        }
+
+        .container {
+            padding: 10px;
+        }
+
+        .tokenomics h2 {
+            font-size: 14px;
+        }
+
+        .contract {
+            font-size: 10px;
+            padding: 6px;
+        }
+    }
+
+    button {
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        padding: 8px 15px;
+        font-size: 14px;
+        font-weight: bold;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    button:hover {
+        background-color: #45A049;
+    }

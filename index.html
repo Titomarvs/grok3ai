@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GROK 3</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+    <div class="thebanner">
+        <div class="banner">
+            <img src="./Screenshot 2025-02-18 233821.png" alt="GROK 3 Banner">
+        </div>
+
+        <!-- Social Links inside .thebanner -->
+    </div>
+    <div class="social-links">
+        <a href="https://twitter.com/YOUR_X_LINK" target="_blank">
+            <img src="./X_logo_2023_(white).png" alt="Twitter">
+        </a>
+        <a href="https://t.me/YOUR_TELEGRAM_LINK" target="_blank">
+            <img src="./telegram.png" alt="Telegram">
+        </a>
+    </div>
+        <p class="contract">
+  <strong>CA:</strong> 
+  <span id="contractAddress">3Yaq97n893TkB62FJXeVwJvDGF8P1PHY5GRD78Vqpump</span>
+  <button onclick="copyToClipboard()">Copy</button>
+</p>
+    <div class="container">
+        <h1>GROK 3</h1>
+       Step into the future with <strong>Grok 3</strong>, the next-generation <strong>cryptocurrency</strong> built for visionaries, creators, and innovators. Powered by advanced blockchain technology and inspired by cutting-edge AI, <strong>Grok 3</strong> is more than just a <strong>coin</strong> —it’s a movement.
+
+        <div class="tokenomics">
+            <h2>TOKENOMICS</h2>
+            <p>🔥 Burn: 100% | 💰 Total Supply: 1B | 📉 TaxBuy/Sell: 0% | 🔒 LP: BURNED</p>
+        </div>
+    </div>
+<script>
+  function copyToClipboard() {
+    const contractAddress = document.getElementById('contractAddress').innerText;
+    navigator.clipboard.writeText(contractAddress).then(() => {
+      alert('Contract address copied to clipboard!');
+    }).catch(err => {
+      console.error('Failed to copy:', err);
+    });
+  }
+</script>
+</body>
+</html>
